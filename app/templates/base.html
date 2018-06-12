@@ -1,0 +1,14 @@
+<html>
+    <head>
+      {% if title %}
+      <title>{{ title }} - Destiny Stats</title>
+      {% else %}
+      <title>Welcome to Destiny Stats</title>
+      {% endif %}
+    </head>
+    <body>
+        <div> Destiny Stats <a href="/index">Home</a></div>
+        <hr>
+        {% block content %}{% endblock %}
+    </body>
+</html>
