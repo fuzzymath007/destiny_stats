@@ -1,0 +1,8 @@
+*.pyc
+*.DS_Store
+*.idea/
+*.vscode/
+__pycache__
+/venv
+.pytest_cache
+.*.sw?
